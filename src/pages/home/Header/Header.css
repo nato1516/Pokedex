@@ -61,13 +61,13 @@
 }
 @media (max-width: 500px) {
     .logo img {
-        width: 60px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+        width: 80px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
     .busqueda{
         margin-left: 5px;
     } 
     .busqueda input {
-        padding: 5px 20px 10px 40px; 
+        padding: 5px; 
     }
 
 }
