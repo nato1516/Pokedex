@@ -1,0 +1,61 @@
+.Menu {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: calc(100%-30px);
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 160px;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; 
+    position: relative;
+}
+
+.lupa {
+    position: absolute;
+    left: 10px;
+    color: #666; 
+}
+.busqueda input {
+    width: 100%;
+    padding: 10px 20px 10px 40px; 
+    border-radius: 25px;
+    border: 2px solid #d1d1d1;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.busqueda input:focus {
+    border-color: #39fff8; 
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 12px rgba(0, 234, 255, 0.3); 
+}
+
+.busqueda input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}

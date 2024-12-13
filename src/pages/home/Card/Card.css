@@ -1,0 +1,184 @@
+.card {
+    width: 390px;
+    max-height: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    transition : all 0.3s ease-in-out ;
+    padding-bottom: 630px;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition-duration:200ms ;
+
+}
+
+
+.img-poke {
+    width: 140px;
+    margin: 0 auto;
+    z-index: 20;
+    transition : all 0.3s ease-in-out ;
+}
+.img-poke:hover{
+    margin-top: -20px;
+    transform: scale(1.15);
+    transition-duration:200ms ;
+    filter: drop-shadow(1px 3px 0px black);
+
+}
+.subcard {
+    position: absolute;
+    border-radius: 10px;
+    min-height: 390px;
+    max-height: 540px;
+    padding: 15px;
+    background: #e7f3ff;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    padding-top: 15px;
+    border: 1px solid #424242;
+    box-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.15), /* Sombra ligera para profundidad */
+        0px 1px 1px rgba(135, 170, 200, 0.3), /* Tono azul translúcido */
+        2px 2px 5px rgba(135, 170, 200, 0.3), /* Sombra azul extendida */
+        3px 3px 3px hsl(210, 50%, 80%), /* Azul complementario suave */
+        3px 3px 3px hsl(210, 50%, 70%), /* Azul ligeramente más oscuro */
+        5px 5px 0px hsl(210, 50%, 60%); /* Azul más profundo para borde final */
+
+}
+
+.id {
+    background-color: aliceblue;
+    border: 1px solid #424242;
+    width: auto;
+    padding: 1px 4px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nombre {
+    margin-top: 48px;
+    padding: 1px 4px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    display: block;
+    font-weight: 900;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.altura {
+    margin-top: 2px;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: block;
+    color: #424242;
+    font-family: "Roboto", sans-serif;
+    margin-top: 4px;
+}
+
+.peso {
+    margin-top: 2px;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: block;
+    color: #424242;
+    font-family: "Roboto", sans-serif;
+    margin-top: 4px;
+}
+
+.habitat {
+    margin-top: 2px;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: block;
+    color: #424242;
+    font-family: "Roboto", sans-serif;
+    margin-top: 4px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h4-habildiades {
+    margin: 15px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.item-habi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nombre-habilidades {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-transform: capitalize;
+
+}
+progress{
+    width: 60%;
+}
+.numero{
+    width: 22px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    width: 90px;
+    text-align: end;
+}
+
+.evoluciones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.evo-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    place-content: center;
+    margin: 0 1px;
+}
+.evo-img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.evolucion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.texto-evo{
+    font-size: 11px;
+}
+.tipos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+.tipo-poke{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px 0;
+}
+.h4-evolucion{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 15px 0;
+}
