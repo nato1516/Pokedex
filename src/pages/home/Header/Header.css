@@ -61,8 +61,8 @@
 }
 @media (max-width: 500px) {
     .logo img {
-        width: 90px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
-        margin-rigth: 5px;
+        width: 60px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+        margin-left: 5px;
     }
 }
 
