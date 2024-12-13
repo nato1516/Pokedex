@@ -69,6 +69,9 @@
     .busqueda input {
         padding: 5px; 
     }
+    .Menu {
+       max-width: 100%;  
+    }
 
 }
 
