@@ -59,3 +59,11 @@
     color: #aaa;
     font-style: italic;
 }
+@media (max-width: 768px) {
+    .logo img {
+        width: 110px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+}
+
+
+
